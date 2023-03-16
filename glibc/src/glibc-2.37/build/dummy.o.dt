@@ -1,0 +1,10 @@
+/sources/glibc/src/glibc-2.37/build/dummy.o: \
+ /sources/glibc/src/glibc-2.37/build/dummy.c \
+ /sources/glibc/src/glibc-2.37/build/libc-modules.h \
+ ../include/libc-symbols.h /sources/glibc/src/glibc-2.37/build/config.h \
+ ../sysdeps/generic/libc-symver.h ../sysdeps/generic/symbol-hacks.h
+/sources/glibc/src/glibc-2.37/build/libc-modules.h:
+../include/libc-symbols.h:
+/sources/glibc/src/glibc-2.37/build/config.h:
+../sysdeps/generic/libc-symver.h:
+../sysdeps/generic/symbol-hacks.h:

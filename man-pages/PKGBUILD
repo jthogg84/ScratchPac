@@ -1,0 +1,13 @@
+pkgname=man-pages
+pkgver=6.03
+pkgrel=1
+pkgdesc='Describe C programming language functions, important device files, and significant configuration files'
+arch=('x86_64')
+source=("$pkgname-$pkgver.tar.xz")
+
+
+
+package() {
+      cd "$srcdir/$pkgname-$pkgver"
+       make DESTDIR=${pkgdir} install  
+}
